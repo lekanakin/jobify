@@ -43,7 +43,7 @@ def main():
 			nav1,nav2,nav3 = st.beta_columns([3,2,1])
 
 			with nav1:
-				search_term = st.text_input("Search Job")
+				search_term = st.text_input("Search a Job")
 			with nav2:
 				location = st.text_input("Location")
 
@@ -102,11 +102,9 @@ def main():
 
 
 
-
-
 	else:
 		st.subheader("About Jobify")
-		st.markdown("Built with Streamlit by [LekanAkin](https://github.com/lekanakin)")
+		st.markdown("Built for social good by [LekanAkin](https://github.com/lekanakin)")
 		st.success("This application uses the GitHub Job search API.")
 
 
