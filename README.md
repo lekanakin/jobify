@@ -1,2 +1,2 @@
 # jobify
-A job search application.
+A job search engine.
